@@ -34,6 +34,7 @@ console.log(firstHuman,'firstHuman')
 firstHuman.name = 'Привет!Был Ярик теперь зовут Шарик'
 
 
+
 class FrontendBuilder extends AbstractHuman {
     constructor(name, startDate, endDate, salaryPerMont, positionMiddle, companyNameOracle,) {
         super(name, startDate, endDate, salaryPerMont, positionMiddle, companyNameOracle);
